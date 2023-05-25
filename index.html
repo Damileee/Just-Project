@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Homepage</title>
 </head>
 
 <body>
-    <em>
-        <div>
+    <div class="container">
+
+        <div class="image">
             <img src="img/tjp.png" alt="Just Project logo">
         </div>
         <header>
@@ -19,31 +24,44 @@
             </h1>
             <p>We learn by doing</p>
         </header>
-        <hr>
-        <div>
+        
+        <div class="article">
             <h2>
                 What you stand to gain
             </h2>
-            <div>
-                <p>a. Solid frontend developer skills.</p>
-                <p>b. Learn collaboration with team.</p>
-                <p>c. Join a helpfull tech community.</p>
-                <p>d. Accelerate progress due to guided paths.</p>
-            </div>
+            <ul>
+                <span class="alphabet">
+                    <p>a.</p>
+                    <p>Solid frontend developer skills.</p>
+                </span>
+                <span class="alphabet">
+                    <p>b.</p>
+                    <p>Learn collaboration with team.</p>
+                </span>
+                <span class="alphabet">
+                    <p>c.</p>
+                    <p>Join a helpfull tech community.</p>
+                </span>
+                <span class="__alphabet">
+                    <div class="p">d.</div>
+                    <span class="d">Accelerate progress due to guided paths.</span>
+                </span>
+            </ul>
         </div>
-        <hr>
-        <div>
+        
+        <div class="article">
             <span>
-                Before we start, you may want to checkout more
-                <a href="about.html">About Us.</a>
+                <p>Before we start, you may want to checkout more</p>
+                <a class="link" href="about.html"> About Us.</a>
             </span>
             <p>Done? Then Create an account or Login to your account.</p>
         </div>
-        <span>
-            <button><em>Get Started</em></button>
-            <button><em>Sign In Now</em></button>
+        <span class="btn">
+            <button><a class="a" href="table.html">The Table Task</a></button>
+            <button>Sign In Now</button>
         </span>
-    </em>
+    </div>
+
 </body>
 
 </html>
