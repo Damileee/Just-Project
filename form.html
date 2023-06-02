@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form_style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="form_container">
+        <h1>Contact Form</h1>
+        <form>
+            <div class="name">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="Enter your Name" required>
+            </div>
+            <div class="username">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Enter your username" required>
+            </div>
+            <div class="password">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your Password" required>
+            </div>
+            <div class="re-type_password">
+                <label for="pass">Re-type Password:</label>
+                <input type="password" name="password" id="re-type_password" placeholder="Enter your Password" required>
+            </div>
+            <div class="gender">
+                <label for="gender">Gender:</label>
+                <span class="gender_radio">
+                    <input type="radio" name="gender" id="gender" required>
+                    <label for="gender" class="male">Male</label>
+                    <input type="radio" name="gender" id="gender_female" required>
+                    <label for="gender" class="female">Female</label>
+                </span>
+            </div>
+            <div class="skills">
+                <label for="skills">Tech Skills:</label>
+                <span class="skills_checkbox">
+                    <input type="checkbox" name="html" id="html_checkbox" required>
+                    <label for="html" class="html">HTML</label>
+                    <input type="checkbox" name="css" id="css_checkbox" required>
+                    <label for="css" class="css">CSS</label>
+                    <input type="checkbox" name="javascript" id="js_checkbox" required>
+                    <label for="javascript" class="javascript">JavaScript</label>
+                </span>
+            </div>
+            <div class="number">
+                <label for="number">Phone Number:</label>
+                <input type="tel" name="number" id="number" placeholder="Enter your address" required>
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your Email address" required>
+            </div>
+            <div class="college">
+                <label for="college">College:</label>
+                <select name="college" id="college" required>
+                    <option value="" disabled selected>Select a College</option>
+                </select>
+            </div>
+            <div>
+                <button class="button"><a class="a" href="index.html">Homepage</a></button>
+                <button class="button">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
